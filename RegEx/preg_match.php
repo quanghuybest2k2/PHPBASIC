@@ -11,4 +11,4 @@ if (!empty($check)) {
 } else {
     echo "Số điện thoại không hợp lệ";
 }
-// /0([0-9]{9})/g
+// /0([0-9]{9})
