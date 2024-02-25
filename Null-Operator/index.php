@@ -25,8 +25,14 @@ $d = 12;
 
 echo $c < 0 ? 'a' : 'b'; // b
 
+$a = 0;
+$b = 7;
+echo $a ?: $b; // b
+
+
 // Kết lại:
 /*
  * Toán tử ?? chỉ dùng để xác định giá trị có null hoặc undefine hay không
  * Nếu dùng nhiều câu lệnh rẻ nhánh thì dùng toán tử ?
+ * Viết ? ngắn gọn là ?: nếu trả về điều kiện trước dấu ?
  */
